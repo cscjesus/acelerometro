@@ -45,8 +45,8 @@
                                 'Timestamp: ' + acceleration.timestamp + '<br/>';
         }
 
-        function onError() {
-            alert("error");
+        function onError(error) {
+            alert("error:" + error.toString());
         }
     </script>
 </head>
